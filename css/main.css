@@ -1,5 +1,7 @@
 *{
 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 header{
 	  position: fixed;
@@ -98,4 +100,322 @@ header{
 .cajafoto img{
 	margin-top: 20px;
 }
+
+/*================segunda parte=================== */
+
+html{
+	font-size: 10px;
+}
+
+
+
+/* PARTE 2 DEL DOCUMENTO*/
+
+.title1{
+	font-size: 2.09rem;
+}
+
+.hero-unit {
+    position: relative;
+    height: 423px;/*debe ser igual tamaño*/
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.hero-unit .ovarlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 423px;/*debe ser igual*/
+}
+
+
+.banner1{ /*modificado*/
+    background-image: url('../img/background/city.jpg');
+
+}
+
+.banneroscuro{
+    background-color: rgba(0,0,0,0.5);
+   
+}
+
+.parrafo {
+	padding-top: 110px;
+    color: white;
+}
+
+.btn1{
+	border-radius: 0px;
+	border:none;
+	font-size: 1.8rem;
+}
+
+.btn-primary1{
+	color: #fff;
+   	background-color: rgba(255,255,255,0.10);
+    padding: 13px 19px;
+    margin-top: 53px;
+}
+
+.btn1:hover{
+	background-color: #337ab7;
+}
+
+.col-xs-12{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.call{
+	background-color: rgba(255,255,255,0.5);
+}
+
+.chicapeliroja img{
+	width: 98px;
+    border-radius: 100px;
+    margin-bottom: 14px;
+    margin-top: 50px;
+}
+  
+.chicapeliroja p{
+	font-size: 1.6rem;
+	width: 68%;
+	margin: auto;	
+}
+
+.chicapeliroja h2 {
+	padding-top: 59px;
+}
+
+/*banner2*/
+
+.hero1-unit {
+    position: relative;
+    height: 726px;/*debe ser igual tamaño*/
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.hero1-unit .ovarlay1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 726px;/*debe ser igual*/
+}
+
+.banner2{ /*modificado*/
+    background-image: url('../img/background/contactus.jpg');
+
+}
+
+.banner2oscuro{
+    background-color: rgba(0,0,0,0.5);
+   
+}
+
+.contactar .container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.redes h2{
+	font-size: 3.3rem;
+	color: #535353;
+}
+
+
+.linea1{
+    font-size: 1.6rem;
+    padding-bottom: 41px;
+}
+
+.standard{
+	font-size: 3rem;
+    color: white;
+    width: 83%;
+    margin: auto;
+    padding: 32px 0px;
+}
+
+.standard1{
+	font-size: 2rem;
+    width: 83%;
+    margin: auto;
+    padding: 54px 0px;
+}
+
+span{
+	font-size: 3rem;
+}
+
+.list-group{
+	width:83%;
+	margin: auto;
+	font-size: 1.65rem;
+}
+
+.list-group-item{
+	padding: 16px 0px;
+    border-right: none;
+    border-left: none;
+   /*border:none;*/
+}
+
+.lineahorizontal{
+    border-bottom: none;
+}
+
+.btn2{
+	border-radius: 0px;
+	border:none;
+	font-size: 1.8rem;
+	margin-bottom: 51px;
+    margin-top: 5px;
+}
+
+.btn-primary2{
+	color: #ccc;
+   	background-color: #222222;
+    padding: 8px 29px;
+ }
+
+.btn2:hover{
+	background-color: #337ab7;
+}
+
+.caja1{
+	padding: 35px 0px 0px;
+	background-color: white;
+}
+
+.plomo{
+	padding-bottom: 87px;
+}
+
+/*hr{
+	background-color: #eee;
+  	height: 1px;
+  	width: 80%;
+  	margin: auto;
+}
+*/
+
+/*===== FORMULARIO ====*/
+
+.line1 {
+    font-size: 3.4rem;
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+
+.line2{
+	font-size: 1.64rem;
+	padding-bottom: 7px;
+}
+
+
+.message{
+	font-size: 2.2rem;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.about{
+	font-size: 2.2rem;
+    margin-bottom: 44px;
+}
+
+.aboutus{
+	width: 94%;
+    line-height: 2.4rem;
+}
+
+.address{
+	font-size: 2.2rem;
+	padding-top: 10px;
+    padding-bottom: 31px;
+}
+
+.fa-map-marker, .fa-phone{
+	font-size: 1.5rem;
+}
+
+.form-group{
+	margin-left: 15px;
+}
+
+.form-control {
+  	border-radius: 0px;
+  	font-size: 1.6rem;
+  	background-color: rgba(255,255,255,0.07);
+  	border:none;
+  	color:white; /*color de letra para llenado*/
+  	padding-top: 26px;
+  	padding-bottom: 26px;
+  	margin-bottom: 21px;
+}
+
+textarea.form-control{
+    height: auto;
+    margin-left: 15px;
+    width: 97.5%;
+    padding-top: 17px;
+    padding-bottom: 34px;
+}
+
+.btn{
+	border-radius: 0px;
+	border:none;
+	margin-left: 15px;
+	font-size: 1.8rem;
+}
+
+.btn-primary{
+	color: #fff;
+    background-color: #0DC0C0;
+    padding: 13px 35px;
+}
+
+/*=====================*/
+
+
+.followus{
+	font-size: 1.6rem;
+	width: 68%;
+	margin: auto;	
+}
+
+.iconos{
+	font-size: 3.5rem;
+	color:#222222;
+	margin: 0 6px;
+}
+
+a .fa-facebook:hover{
+	color: #23599B;
+}
+
+a .fa-twitter:hover{
+	color: #00ACE4;
+}
+
+a .fa-linkedin:hover{
+	color: #0077B5;
+}
+
+a .fa-pinterest:hover , a .fa-google-plus:hover{
+	color: #E03522;
+}
+
+
+
+
+
 
