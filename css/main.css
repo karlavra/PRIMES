@@ -13,6 +13,24 @@ header{
 	  z-index: 1;
 	  width: 100%
 }
+header .container-fluid{
+	padding: 0;
+
+}
+.navbar-default {
+    background-color: rgba(0,0,0,0.7) !important;
+    border-color: transparent !important;
+    }
+.navbar-default .navbar-brand {
+    color: #fcf8e3;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fcf8e3;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-color: rgba(0,0,0,0.7);
+}
 .navbar-brad{
 	color: black;
     font-size: 1.5em;
@@ -20,6 +38,12 @@ header{
 .navbar-default{
 	background-color: rgba(0, 0, 0,.3);
     border-color:transparent ;
+}
+.navbar-right{
+    margin-right: 5% !important;
+}
+.navbar-header{
+	margin-left: 5% !important;
 }
 .banner{
 	background-image: url("../img/background/hero.jpg");
@@ -52,7 +76,7 @@ header{
  	margin-left: 2%;
     color: #f5f5f5;
     background-color: #555;
-    border-color:#555;
+    border-color:transparent;
     border-radius:0px;
     font-size: 1.5em;
 }
@@ -60,7 +84,7 @@ header{
 	margin-left: 2%;
     color: #f5f5f5;
     background-color: rgba(255,255,255,.15);
-    border-color:#555;
+    border-color:transparent;
     border-radius:0px;
     font-size: 1.5em;
 }
@@ -86,26 +110,48 @@ header{
 	background-color: #EEE;
 	width: 100%;
 	text-align: center;
-	padding-top: 2%;
-
+	padding: 2% 0%;
 }
+.fondogris p{
+	margin: 2% 0%;
+}
+.fondogris .btn{
+    padding: 10px 20px;
+    margin-bottom: 2%;
+    border-radius: 0%;
+}
+.fondogris .btn-default:hover{
+	background-color: #0dc0c0;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #0dc0c0;
+    }
 .ionicons, .fa-paper-plane-o{
 	font-size: 50px;
-	color: green;
+	color: #0dc0c0;
 }
 
 .blanco{
 	padding: 7% 0% 2%;
 	font-size: 0.9em;
 }
+.blanco .row{
+	margin-bottom: 4%;
+}
 .cajafoto{
 	background-color: white;
-	margin: 5% 0%;
+	margin: 3% 0%;
     padding-bottom: 1%;
 }
 .cajafoto img{
 	margin-top: 20px;
 }
+.btn-default:hover {
+    color: #333;
+    background-color: #0dc0c0;
+    border-color: #0dc0c0;
+}
+
 
 /*================segunda parte=================== */
 
@@ -410,8 +456,96 @@ a .fa-pinterest:hover , a .fa-google-plus:hover{
 	color: #E03522;
 }
 
+/*===== MEDIA QUERIES =======*/
 
+@media only screen and (max-width: 1200px) {
+ 	.cajafoto img{
+ 	width: 80%;
+ 	}
+	.fondolaptop{
+		height: 380px;
+	}
+	.caja1{
+		margin-bottom: 30px;
+	}
+	.chicapeliroja{
+		margin-top: 10px;
+	}
+	.chicapeliroja h2{
+		padding-top: 0;
+	}
+	.plomo{
+		padding-bottom: 48px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.fondolaptop{
+		height: 300px;
+	}
+	.caja1{
+		margin-bottom: 30px;
+	}
+	.chicapeliroja{
+		margin-top: 10px;
+	}
+	.chicapeliroja h2{
+		padding-top: 0;
+	}
+	.plomo{
+		padding-bottom: 48px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.fondolaptop{
+		height: 200px;
+	}
+	.caja1{
+		margin-bottom: 30px;
+	}
+	.chicapeliroja{
+		margin-top: 10px;
+	}
+	.chicapeliroja h2{
+		padding-top: 0;
+	}
+	.plomo{
+		padding-bottom: 48px;
+	}
 
+	.banner2{ /*modificado*/
+    background-image: url('../img/background/contactus.jpg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 300% 
+    }
+}
+
+@media only screen and (max-width: 300px) {
+	.fondolaptop{
+		height: 150px;
+	}
+
+	.caja1{
+		margin-bottom: 30px;
+	}
+
+	.chicapeliroja{
+		margin-top: 10px;
+	}
+
+	.chicapeliroja h2{
+		padding-top: 0;
+	}
+
+	.chicapeliroja p{
+		font-size: 1.5rem;
+    	width: 81%;
+	}
+
+	.plomo{
+		padding-bottom: 48px;
+	}
+}
 
 
 
