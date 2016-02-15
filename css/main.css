@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+}
+header{
+	  position: fixed;
+	  width: 100%
+}
+.navbar-brad{
+	color: black;
+    font-size: 1.5em;
+}
+.navbar-default{
+	background-color: rgba(0, 0, 0,.3);
+    border-color:transparent ;
+}
+.banner{
+	background-image: url("../img/background/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color:white;
+	height: 100%;
+	
+}
+.opaco{
+	background-color: rgba(0, 0, 0,.5);
+	width: 100%;
+	height: 100%;
+	padding: 20% 0% 20% 0%;
+
+
+}
+.banner h1 {
+	margin: 0;
+	margin-bottom: 2%;
+	font-size: 3em;
+}
+.banner p {
+	margin-bottom: 4%;
+	font-size: 1.5em;
+}
+
+ .uno{
+ 	margin-left: 2%;
+    color: #f5f5f5;
+    background-color: #555;
+    border-color:#555;
+    border-radius:0px;
+    font-size: 1.5em;
+}
+.dos{
+	margin-left: 2%;
+    color: #f5f5f5;
+    background-color: rgba(255,255,255,.15);
+    border-color:#555;
+    border-radius:0px;
+    font-size: 1.5em;
+}
+.caja{
+	text-align: center;
+	padding: 6%;
+	font-size: 0.9em; 
+}
+.fondo{
+	background-color: #EEE;
+	padding-top: 5%;
+	text-align: center;
+	padding-bottom:5%;
+}
+.fondolaptop{
+	background-image: url("../img/laptop-features.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+	height: 400px;
+}
+.fondogris{
+	background-color: #EEE;
+	width: 100%;
+	text-align: center;
+	padding-top: 2%;
+
+}
+.ionicons, .fa-paper-plane-o{
+	font-size: 50px;
+	color: green;
+}
+
+.blanco{
+	padding: 7% 0% 2%;
+	font-size: 0.9em;
+}
+.cajafoto{
+	background-color: white;
+	margin: 5% 0%;
+    padding-bottom: 1%;
+}
+.cajafoto img{
+	margin-top: 20px;
+}
+
