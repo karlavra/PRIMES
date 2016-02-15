@@ -3,8 +3,14 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+html{
+	font-size: 10px;
+}
+
 header{
 	  position: fixed;
+	  z-index: 1;
 	  width: 100%
 }
 .navbar-brad{
@@ -103,14 +109,6 @@ header{
 
 /*================segunda parte=================== */
 
-html{
-	font-size: 10px;
-}
-
-
-
-/* PARTE 2 DEL DOCUMENTO*/
-
 .title1{
 	font-size: 2.09rem;
 }
@@ -163,11 +161,6 @@ html{
 
 .btn1:hover{
 	background-color: #337ab7;
-}
-
-.col-xs-12{
-	padding-left: 0;
-	padding-right: 0;
 }
 
 .call{
@@ -239,14 +232,14 @@ html{
 .standard{
 	font-size: 3rem;
     color: white;
-    width: 83%;
+    width: 92%;
     margin: auto;
     padding: 32px 0px;
 }
 
 .standard1{
 	font-size: 2rem;
-    width: 83%;
+    width: 92%;
     margin: auto;
     padding: 54px 0px;
 }
@@ -256,7 +249,7 @@ span{
 }
 
 .list-group{
-	width:83%;
+	width:75%;
 	margin: auto;
 	font-size: 1.65rem;
 }
@@ -268,8 +261,18 @@ span{
    /*border:none;*/
 }
 
+.pucharse{
+	height: 88px;
+}
+
+.lineahorizontal1{
+	border-top: none;
+}
+
+
 .lineahorizontal{
     border-bottom: none;
+    padding-bottom: 29px; 
 }
 
 .btn2{
@@ -293,19 +296,12 @@ span{
 .caja1{
 	padding: 35px 0px 0px;
 	background-color: white;
+	box-shadow: 0 0 5px 0 #ccc; /*sombra para la caja*/
 }
 
 .plomo{
 	padding-bottom: 87px;
 }
-
-/*hr{
-	background-color: #eee;
-  	height: 1px;
-  	width: 80%;
-  	margin: auto;
-}
-*/
 
 /*===== FORMULARIO ====*/
 
@@ -370,14 +366,14 @@ textarea.form-control{
     padding-bottom: 34px;
 }
 
-.btn{
+form .btn{
 	border-radius: 0px;
 	border:none;
 	margin-left: 15px;
 	font-size: 1.8rem;
 }
 
-.btn-primary{
+form .btn-primary{
 	color: #fff;
     background-color: #0DC0C0;
     padding: 13px 35px;
@@ -413,6 +409,33 @@ a .fa-linkedin:hover{
 a .fa-pinterest:hover , a .fa-google-plus:hover{
 	color: #E03522;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
